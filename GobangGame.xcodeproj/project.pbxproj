@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1D56558233221F0006B1138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D56557233221F0006B1138 /* AppDelegate.m */; };
+		A1D5655B233221F0006B1138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5655A233221F0006B1138 /* ViewController.m */; };
+		A1D5655E233221F0006B1138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D5655C233221F0006B1138 /* Main.storyboard */; };
+		A1D56560233221F2006B1138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D5655F233221F2006B1138 /* Assets.xcassets */; };
+		A1D56563233221F2006B1138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D56561233221F2006B1138 /* LaunchScreen.storyboard */; };
+		A1D56566233221F2006B1138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D56565233221F2006B1138 /* main.m */; };
+		A1D56570233221F2006B1138 /* GobangGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5656F233221F2006B1138 /* GobangGameTests.m */; };
+		A1D5657B233221F3006B1138 /* GobangGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5657A233221F3006B1138 /* GobangGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D5656C233221F2006B1138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D5654B233221F0006B1138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D56552233221F0006B1138;
+			remoteInfo = GobangGame;
+		};
+		A1D56577233221F2006B1138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D5654B233221F0006B1138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D56552233221F0006B1138;
+			remoteInfo = GobangGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1D56553233221F0006B1138 /* GobangGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GobangGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D56556233221F0006B1138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1D56557233221F0006B1138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1D56559233221F0006B1138 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1D5655A233221F0006B1138 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1D5655D233221F0006B1138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1D5655F233221F2006B1138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1D56562233221F2006B1138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1D56564233221F2006B1138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D56565233221F2006B1138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1D5656B233221F2006B1138 /* GobangGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GobangGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D5656F233221F2006B1138 /* GobangGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GobangGameTests.m; sourceTree = "<group>"; };
+		A1D56571233221F2006B1138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D56576233221F2006B1138 /* GobangGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GobangGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D5657A233221F3006B1138 /* GobangGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GobangGameUITests.m; sourceTree = "<group>"; };
+		A1D5657C233221F3006B1138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D56550233221F0006B1138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D56568233221F2006B1138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D56573233221F2006B1138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1D5654A233221F0006B1138 = {
+			isa = PBXGroup;
+			children = (
+				A1D56555233221F0006B1138 /* GobangGame */,
+				A1D5656E233221F2006B1138 /* GobangGameTests */,
+				A1D56579233221F3006B1138 /* GobangGameUITests */,
+				A1D56554233221F0006B1138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D56554233221F0006B1138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D56553233221F0006B1138 /* GobangGame.app */,
+				A1D5656B233221F2006B1138 /* GobangGameTests.xctest */,
+				A1D56576233221F2006B1138 /* GobangGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D56555233221F0006B1138 /* GobangGame */ = {
+			isa = PBXGroup;
+			children = (
+				A1D56556233221F0006B1138 /* AppDelegate.h */,
+				A1D56557233221F0006B1138 /* AppDelegate.m */,
+				A1D56559233221F0006B1138 /* ViewController.h */,
+				A1D5655A233221F0006B1138 /* ViewController.m */,
+				A1D5655C233221F0006B1138 /* Main.storyboard */,
+				A1D5655F233221F2006B1138 /* Assets.xcassets */,
+				A1D56561233221F2006B1138 /* LaunchScreen.storyboard */,
+				A1D56564233221F2006B1138 /* Info.plist */,
+				A1D56565233221F2006B1138 /* main.m */,
+			);
+			path = GobangGame;
+			sourceTree = "<group>";
+		};
+		A1D5656E233221F2006B1138 /* GobangGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5656F233221F2006B1138 /* GobangGameTests.m */,
+				A1D56571233221F2006B1138 /* Info.plist */,
+			);
+			path = GobangGameTests;
+			sourceTree = "<group>";
+		};
+		A1D56579233221F3006B1138 /* GobangGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5657A233221F3006B1138 /* GobangGameUITests.m */,
+				A1D5657C233221F3006B1138 /* Info.plist */,
+			);
+			path = GobangGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D56552233221F0006B1138 /* GobangGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D5657F233221F3006B1138 /* Build configuration list for PBXNativeTarget "GobangGame" */;
+			buildPhases = (
+				A1D5654F233221F0006B1138 /* Sources */,
+				A1D56550233221F0006B1138 /* Frameworks */,
+				A1D56551233221F0006B1138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GobangGame;
+			productName = GobangGame;
+			productReference = A1D56553233221F0006B1138 /* GobangGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D5656A233221F2006B1138 /* GobangGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D56582233221F3006B1138 /* Build configuration list for PBXNativeTarget "GobangGameTests" */;
+			buildPhases = (
+				A1D56567233221F2006B1138 /* Sources */,
+				A1D56568233221F2006B1138 /* Frameworks */,
+				A1D56569233221F2006B1138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D5656D233221F2006B1138 /* PBXTargetDependency */,
+			);
+			name = GobangGameTests;
+			productName = GobangGameTests;
+			productReference = A1D5656B233221F2006B1138 /* GobangGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D56575233221F2006B1138 /* GobangGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D56585233221F3006B1138 /* Build configuration list for PBXNativeTarget "GobangGameUITests" */;
+			buildPhases = (
+				A1D56572233221F2006B1138 /* Sources */,
+				A1D56573233221F2006B1138 /* Frameworks */,
+				A1D56574233221F2006B1138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D56578233221F2006B1138 /* PBXTargetDependency */,
+			);
+			name = GobangGameUITests;
+			productName = GobangGameUITests;
+			productReference = A1D56576233221F2006B1138 /* GobangGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D5654B233221F0006B1138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "韩琴";
+				TargetAttributes = {
+					A1D56552233221F0006B1138 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A1D5656A233221F2006B1138 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A1D56552233221F0006B1138;
+					};
+					A1D56575233221F2006B1138 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A1D56552233221F0006B1138;
+					};
+				};
+			};
+			buildConfigurationList = A1D5654E233221F0006B1138 /* Build configuration list for PBXProject "GobangGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D5654A233221F0006B1138;
+			productRefGroup = A1D56554233221F0006B1138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D56552233221F0006B1138 /* GobangGame */,
+				A1D5656A233221F2006B1138 /* GobangGameTests */,
+				A1D56575233221F2006B1138 /* GobangGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D56551233221F0006B1138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D56563233221F2006B1138 /* LaunchScreen.storyboard in Resources */,
+				A1D56560233221F2006B1138 /* Assets.xcassets in Resources */,
+				A1D5655E233221F0006B1138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D56569233221F2006B1138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D56574233221F2006B1138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D5654F233221F0006B1138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5655B233221F0006B1138 /* ViewController.m in Sources */,
+				A1D56566233221F2006B1138 /* main.m in Sources */,
+				A1D56558233221F0006B1138 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D56567233221F2006B1138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D56570233221F2006B1138 /* GobangGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D56572233221F2006B1138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5657B233221F3006B1138 /* GobangGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D5656D233221F2006B1138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D56552233221F0006B1138 /* GobangGame */;
+			targetProxy = A1D5656C233221F2006B1138 /* PBXContainerItemProxy */;
+		};
+		A1D56578233221F2006B1138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D56552233221F0006B1138 /* GobangGame */;
+			targetProxy = A1D56577233221F2006B1138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D5655C233221F0006B1138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D5655D233221F0006B1138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1D56561233221F2006B1138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D56562233221F2006B1138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D5657D233221F3006B1138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1D5657E233221F3006B1138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D56580233221F3006B1138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AZMM977X;
+				INFOPLIST_FILE = GobangGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.GobangGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1D56581233221F3006B1138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73AZMM977X;
+				INFOPLIST_FILE = GobangGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.GobangGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1D56583233221F3006B1138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GobangGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.GobangGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GobangGame.app/GobangGame";
+			};
+			name = Debug;
+		};
+		A1D56584233221F3006B1138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GobangGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.GobangGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GobangGame.app/GobangGame";
+			};
+			name = Release;
+		};
+		A1D56586233221F3006B1138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GobangGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.GobangGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GobangGame;
+			};
+			name = Debug;
+		};
+		A1D56587233221F3006B1138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GobangGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.GobangGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GobangGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D5654E233221F0006B1138 /* Build configuration list for PBXProject "GobangGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D5657D233221F3006B1138 /* Debug */,
+				A1D5657E233221F3006B1138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D5657F233221F3006B1138 /* Build configuration list for PBXNativeTarget "GobangGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D56580233221F3006B1138 /* Debug */,
+				A1D56581233221F3006B1138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D56582233221F3006B1138 /* Build configuration list for PBXNativeTarget "GobangGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D56583233221F3006B1138 /* Debug */,
+				A1D56584233221F3006B1138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D56585233221F3006B1138 /* Build configuration list for PBXNativeTarget "GobangGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D56586233221F3006B1138 /* Debug */,
+				A1D56587233221F3006B1138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D5654B233221F0006B1138 /* Project object */;
+}
